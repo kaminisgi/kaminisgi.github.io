@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Giannis Kaminis | Rory's Wisdom</title>
     <!-- Corrected path to the source SCSS file. Webpack will handle the output name.-->
-    <link rel="stylesheet" href="css/main.c84771d7.css">
+    <link rel="stylesheet" href="css/main.95aae6f8.css">
   <link href="css/main.dc4ea4af.css" rel="stylesheet">
 </head>
   <body>
@@ -47,18 +47,30 @@
           </div>
         </div>
       </div>
-      <div class="image-grid"><img class="fullpage animated-cursor lazy" src="img/rorys1.0c8f6b79.png"
-          alt="Detail Image 1">
-        <div class="two-column-row"><img class="fullpage animated-cursor lazy" src="img/rorys2.6fb3c710.png"
-            alt="Detail Image 1"><img class="fullpage animated-cursor lazy" src="img/rorys3.650b4c8d.png"
-            alt="Detail Image 1"></div><img class="fullpage animated-cursor lazy" src="img/rorys4.c7569233.png"
-          alt="Detail Image 1">
+      <div class="image-grid">
+        <!-- --- 1. Calculate Required Height -----><!-- Read original dimensions from injected data--><!-- Calculate new height based on desired width and original aspect ratio (W / H)--><!-- --- 2. Create CLS-Preventing Placeholder -----><!-- Placeholder SRC (SVG Data URI) uses the new calculated width and height--><!-- This reserves the exact space needed before the actual image loads.--><!-- --- 3. Generate the <img> Tag -----><img
+          class="fullpage animated-cursor lazy" data-src="img/rorys/rorys1.png"
+          src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 667'%3E%3C/svg%3E"
+          alt="image1" width="1000" height="667">
+        <div class="two-column-row">
+          <!-- --- 1. Calculate Required Height -----><!-- Read original dimensions from injected data--><!-- Calculate new height based on desired width and original aspect ratio (W / H)--><!-- --- 2. Create CLS-Preventing Placeholder -----><!-- Placeholder SRC (SVG Data URI) uses the new calculated width and height--><!-- This reserves the exact space needed before the actual image loads.--><!-- --- 3. Generate the <img> Tag -----><img
+            class="fullpage animated-cursor lazy" data-src="img/rorys/rorys2.png"
+            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 333'%3E%3C/svg%3E"
+            alt="image2" width="500"
+            height="333"><!-- --- 1. Calculate Required Height -----><!-- Read original dimensions from injected data--><!-- Calculate new height based on desired width and original aspect ratio (W / H)--><!-- --- 2. Create CLS-Preventing Placeholder -----><!-- Placeholder SRC (SVG Data URI) uses the new calculated width and height--><!-- This reserves the exact space needed before the actual image loads.--><!-- --- 3. Generate the <img> Tag -----><img
+            class="fullpage animated-cursor lazy" data-src="img/rorys/rorys3.png"
+            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 333'%3E%3C/svg%3E"
+            alt="image3" width="500" height="333"></div>
+        <!-- --- 1. Calculate Required Height -----><!-- Read original dimensions from injected data--><!-- Calculate new height based on desired width and original aspect ratio (W / H)--><!-- --- 2. Create CLS-Preventing Placeholder -----><!-- Placeholder SRC (SVG Data URI) uses the new calculated width and height--><!-- This reserves the exact space needed before the actual image loads.--><!-- --- 3. Generate the <img> Tag -----><img
+          class="fullpage animated-cursor lazy" data-src="img/rorys/rorys4.png"
+          src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 750'%3E%3C/svg%3E"
+          alt="image4" width="1000" height="750">
       </div>
       <div class="end-page"> </div>
     </div>
     <footer>
       <p>© 2025 Giannis Kaminis</p>
     </footer><!-- Corrected path to the source JavaScript file. Webpack will handle the output name.-->
-    <script src="js/main.893043a5.js"></script>
+    <script src="js/main.444472c1.js"></script>
   </body>
 </html>

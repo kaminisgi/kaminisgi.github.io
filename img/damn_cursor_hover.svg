@@ -1,0 +1,46 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+     width="64px" height="64px" viewBox="0 0 2048 2048">
+  <style>
+    .logo {
+      transform-origin: 50% 50%;
+      animation: float 2.5s ease-in-out infinite;
+    }
+    @keyframes float {
+      0%   { transform: translateY(0) scale(1); }
+      50%  { transform: translateY(-20px) scale(1.04); }
+      100% { transform: translateY(0) scale(1); }
+    }
+
+    .red {
+      animation: pulseRed 2.5s ease-in-out infinite;
+    }
+    @keyframes pulseRed {
+      0%   { fill:#FF1B00; }
+      50%  { fill:#FF6347; }
+      100% { fill:#FF1B00; }
+    }
+
+    .blue {
+      fill:#00B8F8;
+      animation: satBlue 2.5s ease-in-out infinite;
+      transform-origin:50% 50%;
+    }
+    @keyframes satBlue {
+      0%   { filter: saturate(1); }
+      50%  { filter: saturate(2.3); } /* more vivid */
+      100% { filter: saturate(1); }
+    }
+  </style>
+
+  <g class="logo">
+    <path class="red" fill-rule="evenodd" clip-rule="evenodd" d="M808.266,688.888L808.266,688.888
+      c40.287-6.427,76.502-2.369,117.464,13.202c50.772,18.622,91.396,48.411,130.996,95.119c39.267,46.382,65.33,95.8,82.937,157.408
+      c3.385,11.847,5.754,21.998,8.459,34.185c10.158,50.439,11.506,94.78,4.738,143.183c-8.797,60.593-27.754,107.308-60.594,150.297
+      c-32.83,42.652-69.727,68.382-117.791,82.258c-48.07,13.883-93.091,11.514-143.522-7.447
+      c-50.448-18.957-91.402-48.738-130.668-95.119c-39.6-46.71-65.33-95.794-83.272-157.4c-17.602-61.947-21.667-117.458-12.856-177.716
+      c8.791-60.251,27.414-107.301,60.246-149.951c32.839-42.657,69.736-68.722,117.806-82.257
+      C791.344,691.933,799.121,690.244,808.266,688.888z"/>
+    <path class="blue" fill-rule="evenodd" clip-rule="evenodd" d="M1116.977,674.592c740.988,274.857,674.637,594.067,60.6,690.202
+      c10.824-243.721-327.675-304.993-784.99-345.275C484.322,1022.23,1499.488,1004.296,1116.977,674.592z"/>
+  </g>
+</svg>
