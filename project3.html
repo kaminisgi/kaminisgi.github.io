@@ -20,8 +20,11 @@
       </nav><label class="dark-mode-toggle animated-cursor"><!--input#dark-mode-checkbox(type="checkbox")--><span
           class="slider"><input id="dark-mode-checkbox" type="checkbox"></span></label>
     </header>
-    <div class="project-detail" data-color-start="#000000" data-color-end="#202020"><img class="hero-image"
-        src="img/unthreaded_cover.d8a662dd.png" alt="Project Hero Image">
+    <div class="project-detail" data-color-start="#000000" data-color-end="#202020">
+      <!-- --- 1. Calculate Required Height -----><!-- Read original dimensions from injected data--><!-- Calculate new height based on desired width and original aspect ratio (W / H)--><!-- --- 2. Create CLS-Preventing Placeholder -----><!-- Placeholder SRC (SVG Data URI) uses the new calculated width and height--><!-- This reserves the exact space needed before the actual image loads.--><!-- --- 3. Generate the <img> Tag -----><img
+        class="hero-image lazy" data-src="img/unthreaded/unthreaded_cover.png"
+        src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1920 1314'%3E%3C/svg%3E"
+        alt="cover" width="1920" height="1314">
       <div class="container">
         <h2>Unthreaded embodies a defiant philosophy through urban apparel</h2>
         <div class="text-section">

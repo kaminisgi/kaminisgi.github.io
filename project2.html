@@ -20,8 +20,11 @@
       </nav><label class="dark-mode-toggle animated-cursor"><!--input#dark-mode-checkbox(type="checkbox")--><span
           class="slider"><input id="dark-mode-checkbox" type="checkbox"></span></label>
     </header>
-    <div class="project-detail" data-color-start="#FCCB37" data-color-end="#ff7f2d"><img class="hero-image"
-        src="img/sneaky_cover.24438bfc.png" alt="Project Hero Image">
+    <div class="project-detail" data-color-start="#FCCB37" data-color-end="#ff7f2d">
+      <!-- --- 1. Calculate Required Height -----><!-- Read original dimensions from injected data--><!-- Calculate new height based on desired width and original aspect ratio (W / H)--><!-- --- 2. Create CLS-Preventing Placeholder -----><!-- Placeholder SRC (SVG Data URI) uses the new calculated width and height--><!-- This reserves the exact space needed before the actual image loads.--><!-- --- 3. Generate the <img> Tag -----><img
+        class="hero-image lazy" data-src="img/sneaky/sneaky_cover.png"
+        src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1920 1280'%3E%3C/svg%3E"
+        alt="cover" width="1920" height="1280">
       <div class="container">
         <h2>Sneaky Mustard blend heavy, syncopated riffs with catchy choruses and pop-hook inspired guitar melodies</h2>
         <div class="text-section">

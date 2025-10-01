@@ -20,8 +20,11 @@
       </nav><label class="dark-mode-toggle animated-cursor"><!--input#dark-mode-checkbox(type="checkbox")--><span
           class="slider"><input id="dark-mode-checkbox" type="checkbox"></span></label>
     </header>
-    <div class="project-detail" data-color-start="#F6F6F8" data-color-end="#2C8183"><img class="hero-image"
-        src="img/rorys_cover.85c38868.png" alt="Project Hero Image">
+    <div class="project-detail" data-color-start="#F6F6F8" data-color-end="#2C8183">
+      <!-- --- 1. Calculate Required Height -----><!-- Read original dimensions from injected data--><!-- Calculate new height based on desired width and original aspect ratio (W / H)--><!-- --- 2. Create CLS-Preventing Placeholder -----><!-- Placeholder SRC (SVG Data URI) uses the new calculated width and height--><!-- This reserves the exact space needed before the actual image loads.--><!-- --- 3. Generate the <img> Tag -----><img
+        class="hero-image lazy" data-src="img/rorys/rorys_cover.png"
+        src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1920 1280'%3E%3C/svg%3E"
+        alt="cover" width="1920" height="1280">
       <div class="container">
         <h2>Rory's Wisdom is a personal training practice built on empathy, focused on fostering genuine human-canine
           partnership</h2>
