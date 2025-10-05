@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Giannis Kaminis | Portfolio</title>
     <!-- Corrected path to the source SCSS file. Webpack will handle the output name.-->
-    <link rel="stylesheet" href="css/main.95aae6f8.css">
+    <link rel="stylesheet" href="css/main.ca45e523.css">
   <link href="css/main.dc4ea4af.css" rel="stylesheet">
 </head>
   <body>
@@ -30,37 +30,48 @@
         </div>
       </div>
     </div>
-    <div class="container home-hero"><img class="hero-image" src="img/hero.f01e550e.jpg" alt="Project Hero Image">
+    <div class="container home-hero">
+      <!-- --- 1. Calculate Required Height -----><!-- Read original dimensions from injected data--><!-- Calculate new height based on desired width and original aspect ratio (W / H)--><!-- --- 2. Create CLS-Preventing Placeholder -----><!-- Placeholder SRC (SVG Data URI) uses the new calculated width and height--><!-- This reserves the exact space needed before the actual image loads.--><!-- --- 3. Generate the <img> Tag -----><img
+        class="hero-image lazy" data-srcset="img/hero-480w.png 480w, img/hero-800w.png 800w, img/hero-1600w.png 1600w"
+        data-sizes="100vw" data-src="img/hero.png"
+        src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 1200'%3E%3C/svg%3E"
+        alt="hero" width="1600" height="1200">
       <h1>Giannis Kaminis</h1>
       <p>Graphic Designer | Illustrator</p>
     </div>
     <h2>My Projects<div class="work-grid">
         <div class="work-item animated-cursor" onclick="location.href='project1.html'">
           <!-- --- 1. Calculate Required Height -----><!-- Read original dimensions from injected data--><!-- Calculate new height based on desired width and original aspect ratio (W / H)--><!-- --- 2. Create CLS-Preventing Placeholder -----><!-- Placeholder SRC (SVG Data URI) uses the new calculated width and height--><!-- This reserves the exact space needed before the actual image loads.--><!-- --- 3. Generate the <img> Tag -----><img
-            class="full-width-image lazy" data-src="img/rorys/rorys4.png"
-            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 250 188'%3E%3C/svg%3E"
-            alt="thumbnail" width="250"
-            height="188"><!--img(src="../../src/img/project1.png", alt="Detail Image 1" class="full-width-image")-->
+            class="full-width-image lazy"
+            data-srcset="img/rorys/rorys4-480w.png 480w, img/rorys/rorys4-800w.png 800w, img/rorys/rorys4-1600w.png 1600w, img/rorys/rorys4-2400w.png 2400w"
+            data-sizes="100vw" data-src="img/rorys/rorys4.png"
+            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2400 1800'%3E%3C/svg%3E"
+            alt="thumbnail" width="2400"
+            height="1800"><!--img(src="../../src/img/project1.png", alt="Detail Image 1" class="full-width-image")-->
           <div class="overlay">
             <h7>Rory's Wisdom</h7>
           </div>
         </div>
         <div class="work-item animated-cursor" onclick="location.href='project2.html'">
           <!-- --- 1. Calculate Required Height -----><!-- Read original dimensions from injected data--><!-- Calculate new height based on desired width and original aspect ratio (W / H)--><!-- --- 2. Create CLS-Preventing Placeholder -----><!-- Placeholder SRC (SVG Data URI) uses the new calculated width and height--><!-- This reserves the exact space needed before the actual image loads.--><!-- --- 3. Generate the <img> Tag -----><img
-            class="full-width-image lazy" data-src="img/sneaky/sneaky7.png"
-            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 250 167'%3E%3C/svg%3E"
-            alt="thumbnail" width="250"
-            height="167"><!--img(src="../../src/img/project2.png", alt="Detail Image 1" class="full-width-image")-->
+            class="full-width-image lazy"
+            data-srcset="img/sneaky/sneaky7-480w.png 480w, img/sneaky/sneaky7-800w.png 800w, img/sneaky/sneaky7-1600w.png 1600w, img/sneaky/sneaky7-2400w.png 2400w"
+            data-sizes="100vw" data-src="img/sneaky/sneaky7.png"
+            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2400 1600'%3E%3C/svg%3E"
+            alt="thumbnail" width="2400"
+            height="1600"><!--img(src="../../src/img/project2.png", alt="Detail Image 1" class="full-width-image")-->
           <div class="overlay">
             <h7>Sneaky Mustard</h7>
           </div>
         </div>
         <div class="work-item animated-cursor" onclick="location.href='project3.html'">
           <!-- --- 1. Calculate Required Height -----><!-- Read original dimensions from injected data--><!-- Calculate new height based on desired width and original aspect ratio (W / H)--><!-- --- 2. Create CLS-Preventing Placeholder -----><!-- Placeholder SRC (SVG Data URI) uses the new calculated width and height--><!-- This reserves the exact space needed before the actual image loads.--><!-- --- 3. Generate the <img> Tag -----><img
-            class="full-width-image lazy" data-src="img/unthreaded/unthreaded_cover.png"
-            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 250 171'%3E%3C/svg%3E"
-            alt="thumbnail" width="250"
-            height="171"><!--img(src="../../src/img/project3.png", alt="Detail Image 1" class="full-width-image")-->
+            class="full-width-image lazy"
+            data-srcset="img/unthreaded/unthreaded_cover-480w.png 480w, img/unthreaded/unthreaded_cover-800w.png 800w, img/unthreaded/unthreaded_cover-1600w.png 1600w, img/unthreaded/unthreaded_cover-2400w.png 2400w"
+            data-sizes="100vw" data-src="img/unthreaded/unthreaded_cover.png"
+            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2400 1642'%3E%3C/svg%3E"
+            alt="thumbnail" width="2400"
+            height="1642"><!--img(src="../../src/img/project3.png", alt="Detail Image 1" class="full-width-image")-->
           <div class="overlay">
             <h7>Unthreaded</h7>
           </div>
@@ -68,8 +79,8 @@
       </div>
     </h2>
     <footer>
-      <p>© 2025 Giannis Kaminis</p>
+      <p>© 2025 DEVELOPED>>BY>>GIANNISKAMINIS</p>
     </footer><!-- Corrected path to the source JavaScript file. Webpack will handle the output name.-->
-    <script src="js/main.444472c1.js"></script>
+    <script src="js/main.bd82a47a.js"></script>
   </body>
 </html>

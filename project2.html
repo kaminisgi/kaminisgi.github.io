@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Giannis Kaminis | Sneaky Mustard</title>
     <!-- Corrected path to the source SCSS file. Webpack will handle the output name.-->
-    <link rel="stylesheet" href="css/main.95aae6f8.css">
+    <link rel="stylesheet" href="css/main.ca45e523.css">
   <link href="css/main.dc4ea4af.css" rel="stylesheet">
 </head>
-  <body>
+  <body class="theme-project2">
     <header>
       <nav>
         <ul>
@@ -20,11 +20,13 @@
       </nav><label class="dark-mode-toggle animated-cursor"><!--input#dark-mode-checkbox(type="checkbox")--><span
           class="slider"><input id="dark-mode-checkbox" type="checkbox"></span></label>
     </header>
-    <div class="project-detail" data-color-start="#FCCB37" data-color-end="#ff7f2d">
+    <div class="project-detail">
       <!-- --- 1. Calculate Required Height -----><!-- Read original dimensions from injected data--><!-- Calculate new height based on desired width and original aspect ratio (W / H)--><!-- --- 2. Create CLS-Preventing Placeholder -----><!-- Placeholder SRC (SVG Data URI) uses the new calculated width and height--><!-- This reserves the exact space needed before the actual image loads.--><!-- --- 3. Generate the <img> Tag -----><img
-        class="hero-image lazy" data-src="img/sneaky/sneaky_cover.png"
-        src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1920 1280'%3E%3C/svg%3E"
-        alt="cover" width="1920" height="1280">
+        class="hero-image lazy"
+        data-srcset="img/sneaky/sneaky_cover-480w.png 480w, img/sneaky/sneaky_cover-800w.png 800w, img/sneaky/sneaky_cover-1600w.png 1600w, img/sneaky/sneaky_cover-2400w.png 2400w"
+        data-sizes="100vw" data-src="img/sneaky/sneaky_cover.png"
+        src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2400 1600'%3E%3C/svg%3E"
+        alt="cover" width="2400" height="1600">
       <div class="container">
         <h2>Sneaky Mustard blend heavy, syncopated riffs with catchy choruses and pop-hook inspired guitar melodies</h2>
         <div class="text-section">
@@ -51,61 +53,85 @@
         </div>
       </div>
       <div class="image-grid"><!--style only for this part to change column size-->
-        <div class="two-column-row" style="grid-template-columns: auto fit-content(361px)">
+        <div class="two-column-row difsize">
           <!-- --- 1. Calculate Required Height -----><!-- Read original dimensions from injected data--><!-- Calculate new height based on desired width and original aspect ratio (W / H)--><!-- --- 2. Create CLS-Preventing Placeholder -----><!-- Placeholder SRC (SVG Data URI) uses the new calculated width and height--><!-- This reserves the exact space needed before the actual image loads.--><!-- --- 3. Generate the <img> Tag -----><img
-            class="fullpage animated-cursor lazy" data-src="img/sneaky/sneaky1.jpg"
-            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 591 591'%3E%3C/svg%3E"
-            alt="Detail Image 2" width="591"
-            height="591"><!-- --- 1. Calculate Required Height -----><!-- Read original dimensions from injected data--><!-- Calculate new height based on desired width and original aspect ratio (W / H)--><!-- --- 2. Create CLS-Preventing Placeholder -----><!-- Placeholder SRC (SVG Data URI) uses the new calculated width and height--><!-- This reserves the exact space needed before the actual image loads.--><!-- --- 3. Generate the <img> Tag -----><img
-            class="fullpage animated-cursor lazy" data-src="img/sneaky/sneaky1_mock.png"
-            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 361 591'%3E%3C/svg%3E"
-            alt="Detail Image 3" width="361" height="591"></div><video class="fullpage"
+            class="fullpage animated-cursor lazy"
+            data-srcset="img/sneaky/sneaky1-480w.png 480w, img/sneaky/sneaky1-800w.png 800w, img/sneaky/sneaky1-1600w.png 1600w, img/sneaky/sneaky1-2400w.png 2400w, img/sneaky/sneaky1-3200w.png 3200w"
+            data-sizes="100vw" data-src="img/sneaky/sneaky1.png"
+            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3200 3200'%3E%3C/svg%3E"
+            alt="Detail Image 2" width="3200"
+            height="3200"><!-- --- 1. Calculate Required Height -----><!-- Read original dimensions from injected data--><!-- Calculate new height based on desired width and original aspect ratio (W / H)--><!-- --- 2. Create CLS-Preventing Placeholder -----><!-- Placeholder SRC (SVG Data URI) uses the new calculated width and height--><!-- This reserves the exact space needed before the actual image loads.--><!-- --- 3. Generate the <img> Tag -----><img
+            class="fullpage animated-cursor lazy"
+            data-srcset="img/sneaky/sneaky1_mock-480w.png 480w, img/sneaky/sneaky1_mock-800w.png 800w"
+            data-sizes="100vw" data-src="img/sneaky/sneaky1_mock.png"
+            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 1309'%3E%3C/svg%3E"
+            alt="Detail Image 3" width="800" height="1309"></div><video class="fullpage"
           src="img/septum_motion.f7bf2f9b.mp4" autoplay loop muted playsinline alt="Motion portfolio piece"></video>
-        <div class="two-column-row" style="grid-template-columns: auto fit-content(361px)">
+        <div class="two-column-row difsize">
           <!-- --- 1. Calculate Required Height -----><!-- Read original dimensions from injected data--><!-- Calculate new height based on desired width and original aspect ratio (W / H)--><!-- --- 2. Create CLS-Preventing Placeholder -----><!-- Placeholder SRC (SVG Data URI) uses the new calculated width and height--><!-- This reserves the exact space needed before the actual image loads.--><!-- --- 3. Generate the <img> Tag -----><img
-            class="fullpage animated-cursor lazy" data-src="img/sneaky/sneaky2.png"
-            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 591 591'%3E%3C/svg%3E"
-            alt="Detail Image 2" width="591"
-            height="591"><!-- --- 1. Calculate Required Height -----><!-- Read original dimensions from injected data--><!-- Calculate new height based on desired width and original aspect ratio (W / H)--><!-- --- 2. Create CLS-Preventing Placeholder -----><!-- Placeholder SRC (SVG Data URI) uses the new calculated width and height--><!-- This reserves the exact space needed before the actual image loads.--><!-- --- 3. Generate the <img> Tag -----><img
-            class="fullpage animated-cursor lazy" data-src="img/sneaky/sneaky2_mock.png"
-            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 361 591'%3E%3C/svg%3E"
-            alt="Detail Image" width="361" height="591"></div>
-        <div class="two-column-row" style="grid-template-columns: auto fit-content(361px)">
+            class="fullpage animated-cursor lazy"
+            data-srcset="img/sneaky/sneaky2-480w.png 480w, img/sneaky/sneaky2-800w.png 800w, img/sneaky/sneaky2-1600w.png 1600w, img/sneaky/sneaky2-2400w.png 2400w, img/sneaky/sneaky2-3200w.png 3200w"
+            data-sizes="100vw" data-src="img/sneaky/sneaky2.png"
+            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3200 3200'%3E%3C/svg%3E"
+            alt="Detail Image 2" width="3200"
+            height="3200"><!-- --- 1. Calculate Required Height -----><!-- Read original dimensions from injected data--><!-- Calculate new height based on desired width and original aspect ratio (W / H)--><!-- --- 2. Create CLS-Preventing Placeholder -----><!-- Placeholder SRC (SVG Data URI) uses the new calculated width and height--><!-- This reserves the exact space needed before the actual image loads.--><!-- --- 3. Generate the <img> Tag -----><img
+            class="fullpage animated-cursor lazy"
+            data-srcset="img/sneaky/sneaky2_mock-480w.png 480w, img/sneaky/sneaky2_mock-800w.png 800w"
+            data-sizes="100vw" data-src="img/sneaky/sneaky2_mock.png"
+            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 1309'%3E%3C/svg%3E"
+            alt="Detail Image" width="800" height="1309"></div><video class="fullpage"
+          src="img/amcalls_motion.04c54303.mp4" autoplay loop muted playsinline alt="Motion portfolio piece"></video>
+        <div class="two-column-row difsize">
           <!-- --- 1. Calculate Required Height -----><!-- Read original dimensions from injected data--><!-- Calculate new height based on desired width and original aspect ratio (W / H)--><!-- --- 2. Create CLS-Preventing Placeholder -----><!-- Placeholder SRC (SVG Data URI) uses the new calculated width and height--><!-- This reserves the exact space needed before the actual image loads.--><!-- --- 3. Generate the <img> Tag -----><img
-            class="fullpage animated-cursor lazy" data-src="img/sneaky/sneaky3.png"
-            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 591 591'%3E%3C/svg%3E"
-            alt="Detail Image 2" width="591"
-            height="591"><!-- --- 1. Calculate Required Height -----><!-- Read original dimensions from injected data--><!-- Calculate new height based on desired width and original aspect ratio (W / H)--><!-- --- 2. Create CLS-Preventing Placeholder -----><!-- Placeholder SRC (SVG Data URI) uses the new calculated width and height--><!-- This reserves the exact space needed before the actual image loads.--><!-- --- 3. Generate the <img> Tag -----><img
-            class="fullpage animated-cursor lazy" data-src="img/sneaky/sneaky3_mock.png"
-            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 361 591'%3E%3C/svg%3E"
-            alt="Detail Image 3" width="361" height="591"></div>
-        <div class="two-column-row" style="grid-template-columns: auto fit-content(361px)">
+            class="fullpage animated-cursor lazy"
+            data-srcset="img/sneaky/sneaky3-480w.png 480w, img/sneaky/sneaky3-800w.png 800w, img/sneaky/sneaky3-1600w.png 1600w, img/sneaky/sneaky3-2400w.png 2400w, img/sneaky/sneaky3-3200w.png 3200w"
+            data-sizes="100vw" data-src="img/sneaky/sneaky3.png"
+            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3200 3200'%3E%3C/svg%3E"
+            alt="Detail Image 2" width="3200"
+            height="3200"><!-- --- 1. Calculate Required Height -----><!-- Read original dimensions from injected data--><!-- Calculate new height based on desired width and original aspect ratio (W / H)--><!-- --- 2. Create CLS-Preventing Placeholder -----><!-- Placeholder SRC (SVG Data URI) uses the new calculated width and height--><!-- This reserves the exact space needed before the actual image loads.--><!-- --- 3. Generate the <img> Tag -----><img
+            class="fullpage animated-cursor lazy"
+            data-srcset="img/sneaky/sneaky3_mock-480w.png 480w, img/sneaky/sneaky3_mock-800w.png 800w"
+            data-sizes="100vw" data-src="img/sneaky/sneaky3_mock.png"
+            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 1309'%3E%3C/svg%3E"
+            alt="Detail Image 3" width="800" height="1309"></div><video class="fullpage"
+          src="img/aftermath_motion.3e4e1429.mp4" autoplay loop muted playsinline alt="Motion portfolio piece"> </video>
+        <div class="two-column-row difsize">
           <!-- --- 1. Calculate Required Height -----><!-- Read original dimensions from injected data--><!-- Calculate new height based on desired width and original aspect ratio (W / H)--><!-- --- 2. Create CLS-Preventing Placeholder -----><!-- Placeholder SRC (SVG Data URI) uses the new calculated width and height--><!-- This reserves the exact space needed before the actual image loads.--><!-- --- 3. Generate the <img> Tag -----><img
-            class="fullpage animated-cursor lazy" data-src="img/sneaky/sneaky4.png"
-            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 591 591'%3E%3C/svg%3E"
-            alt="Detail Image 2" width="591"
-            height="591"><!-- --- 1. Calculate Required Height -----><!-- Read original dimensions from injected data--><!-- Calculate new height based on desired width and original aspect ratio (W / H)--><!-- --- 2. Create CLS-Preventing Placeholder -----><!-- Placeholder SRC (SVG Data URI) uses the new calculated width and height--><!-- This reserves the exact space needed before the actual image loads.--><!-- --- 3. Generate the <img> Tag -----><img
-            class="fullpage animated-cursor lazy" data-src="img/sneaky/sneaky4_mock.png"
-            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 361 591'%3E%3C/svg%3E"
-            alt="Detail Image 3" width="361" height="591"></div>
+            class="fullpage animated-cursor lazy"
+            data-srcset="img/sneaky/sneaky4-480w.png 480w, img/sneaky/sneaky4-800w.png 800w, img/sneaky/sneaky4-1600w.png 1600w, img/sneaky/sneaky4-2400w.png 2400w, img/sneaky/sneaky4-3200w.png 3200w"
+            data-sizes="100vw" data-src="img/sneaky/sneaky4.png"
+            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3200 3200'%3E%3C/svg%3E"
+            alt="Detail Image 2" width="3200"
+            height="3200"><!-- --- 1. Calculate Required Height -----><!-- Read original dimensions from injected data--><!-- Calculate new height based on desired width and original aspect ratio (W / H)--><!-- --- 2. Create CLS-Preventing Placeholder -----><!-- Placeholder SRC (SVG Data URI) uses the new calculated width and height--><!-- This reserves the exact space needed before the actual image loads.--><!-- --- 3. Generate the <img> Tag -----><img
+            class="fullpage animated-cursor lazy"
+            data-srcset="img/sneaky/sneaky4_mock-480w.png 480w, img/sneaky/sneaky4_mock-800w.png 800w"
+            data-sizes="100vw" data-src="img/sneaky/sneaky4_mock.png"
+            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 1309'%3E%3C/svg%3E"
+            alt="Detail Image 3" width="800" height="1309"></div>
         <!-- --- 1. Calculate Required Height -----><!-- Read original dimensions from injected data--><!-- Calculate new height based on desired width and original aspect ratio (W / H)--><!-- --- 2. Create CLS-Preventing Placeholder -----><!-- Placeholder SRC (SVG Data URI) uses the new calculated width and height--><!-- This reserves the exact space needed before the actual image loads.--><!-- --- 3. Generate the <img> Tag -----><img
-          class="fullpage animated-cursor lazy" data-src="img/sneaky/sneaky5.png"
-          src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 750'%3E%3C/svg%3E"
-          alt="Detail Image 4" width="1000"
-          height="750"><!-- --- 1. Calculate Required Height -----><!-- Read original dimensions from injected data--><!-- Calculate new height based on desired width and original aspect ratio (W / H)--><!-- --- 2. Create CLS-Preventing Placeholder -----><!-- Placeholder SRC (SVG Data URI) uses the new calculated width and height--><!-- This reserves the exact space needed before the actual image loads.--><!-- --- 3. Generate the <img> Tag -----><img
-          class="fullpage animated-cursor lazy" data-src="img/sneaky/sneaky6.png"
-          src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 667'%3E%3C/svg%3E"
-          alt="Detail Image 4" width="1000"
-          height="667"><!-- --- 1. Calculate Required Height -----><!-- Read original dimensions from injected data--><!-- Calculate new height based on desired width and original aspect ratio (W / H)--><!-- --- 2. Create CLS-Preventing Placeholder -----><!-- Placeholder SRC (SVG Data URI) uses the new calculated width and height--><!-- This reserves the exact space needed before the actual image loads.--><!-- --- 3. Generate the <img> Tag -----><img
-          class="fullpage animated-cursor lazy" data-src="img/sneaky/sneaky7.png"
-          src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 667'%3E%3C/svg%3E"
-          alt="Detail Image 4" width="1000" height="667">
+          class="fullpage animated-cursor lazy"
+          data-srcset="img/sneaky/sneaky5-480w.png 480w, img/sneaky/sneaky5-800w.png 800w, img/sneaky/sneaky5-1600w.png 1600w"
+          data-sizes="100vw" data-src="img/sneaky/sneaky5.png"
+          src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 1200'%3E%3C/svg%3E"
+          alt="Detail Image 4" width="1600"
+          height="1200"><!-- --- 1. Calculate Required Height -----><!-- Read original dimensions from injected data--><!-- Calculate new height based on desired width and original aspect ratio (W / H)--><!-- --- 2. Create CLS-Preventing Placeholder -----><!-- Placeholder SRC (SVG Data URI) uses the new calculated width and height--><!-- This reserves the exact space needed before the actual image loads.--><!-- --- 3. Generate the <img> Tag -----><img
+          class="fullpage animated-cursor lazy"
+          data-srcset="img/sneaky/sneaky6-480w.png 480w, img/sneaky/sneaky6-800w.png 800w, img/sneaky/sneaky6-1600w.png 1600w, img/sneaky/sneaky6-2400w.png 2400w, img/sneaky/sneaky6-3200w.png 3200w"
+          data-sizes="100vw" data-src="img/sneaky/sneaky6.png"
+          src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3200 2133'%3E%3C/svg%3E"
+          alt="Detail Image 4" width="3200"
+          height="2133"><!-- --- 1. Calculate Required Height -----><!-- Read original dimensions from injected data--><!-- Calculate new height based on desired width and original aspect ratio (W / H)--><!-- --- 2. Create CLS-Preventing Placeholder -----><!-- Placeholder SRC (SVG Data URI) uses the new calculated width and height--><!-- This reserves the exact space needed before the actual image loads.--><!-- --- 3. Generate the <img> Tag -----><img
+          class="fullpage animated-cursor lazy"
+          data-srcset="img/sneaky/sneaky7-480w.png 480w, img/sneaky/sneaky7-800w.png 800w, img/sneaky/sneaky7-1600w.png 1600w, img/sneaky/sneaky7-2400w.png 2400w"
+          data-sizes="100vw" data-src="img/sneaky/sneaky7.png"
+          src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2400 1600'%3E%3C/svg%3E"
+          alt="Detail Image 4" width="2400" height="1600">
       </div>
     </div>
     <div class="end-page"> </div>
     <footer>
-      <p>© 2025 Giannis Kaminis</p>
+      <p>© 2025 DEVELOPED>>BY>>GIANNISKAMINIS</p>
     </footer><!-- Corrected path to the source JavaScript file. Webpack will handle the output name.-->
-    <script src="js/main.444472c1.js"></script>
+    <script src="js/main.bd82a47a.js"></script>
   </body>
 </html>
